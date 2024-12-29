@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+d {
+	background-color: #FFFACD;
+	font-family: Calibri Light;
+	color:rgb(22, 21, 21);
+	text-decoration: underline;
+	text-decoration-color: rgb(129, 34, 218);
+	
+}
+
+d r {
+
+	font-family: Arial Black;
+	color:rgb(226, 9, 9);
+    font-size: 13px;
+    
+}
+
+d v {
+   
+	font-family:  Arial Black;
+	color:rgb(10, 143, 32);
+    font-size: 13px;
+	
+}
+
+
+
+.container-Principal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(198, 202, 201);
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
+
+    
+   
+
+}
+
+.texto_ESL{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: rgb(238, 247, 246);
+    padding:25px;
+    width:100%;
+   
+    
+}
+
+.texto_ESL p {
+
+   font-family: calibri light;
+   
+    
+}
+
+.estilo_btn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+     
+ }
+
+ .btns_{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-style: ridge;
+    padding:5px;
+    
+     
+ }
+
+
+
+
+.btns_ button {
+
+    padding:5px;
+    width:35px;
+     
+ }
+
+ .btns_ button:hover {
+    color: red;
+    cursor:pointer;
+     
+ }
+
+ @media screen and (max-width: 992px) {
+ }
